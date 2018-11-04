@@ -83,19 +83,19 @@ $(document).ready(function() {
 		// 跳转移动端页面
 		// alert("检测到是手机预览，横屏或者电脑体验更佳哦∩_∩");
 		var carousel = document.getElementsByName("carousel");
-		carousel[0].src = "https://res.wang64.cn/Image/201810/thumbnail/20035.png";
-		carousel[1].src = "https://res.wang64.cn/Image/201810/thumbnail/20045.png";
-		carousel[2].src = "https://res.wang64.cn/Image/201810/thumbnail/20040.png";
-		carousel[0].setAttribute("data-original", "https://res.wang64.cn/Image/201810/normal/20035.png");
-		carousel[1].setAttribute("data-original", "https://res.wang64.cn/Image/201810/normal/20045.png");
-		carousel[2].setAttribute("data-original", "https://res.wang64.cn/Image/201810/normal/20040.png");
+		carousel[0].src = "https://res.wang64.cn/Image/201811/normal/04015.png";
+		carousel[1].src = "https://res.wang64.cn/Image/201811/normal/04020.png";
+		carousel[2].src = "https://res.wang64.cn/Image/201811/normal/04010.png";
+		carousel[0].setAttribute("data-original", "https://res.wang64.cn/Image/201811/origin/04015.png");
+		carousel[1].setAttribute("data-original", "https://res.wang64.cn/Image/201811/origin/04020.png");
+		carousel[2].setAttribute("data-original", "https://res.wang64.cn/Image/201811/origin/04010.png");
 	}else{
 		var carousel = document.getElementsByName("carousel");
 		carousel[0].src = "https://res.wang64.cn/Image/201810/thumbnail/20010.png";
-		carousel[1].src = "https://res.wang64.cn/Image/201810/thumbnail/20025.png";
+		carousel[2].src = "https://res.wang64.cn/Image/201810/thumbnail/20025.png";
 		carousel[0].setAttribute("data-original", "https://res.wang64.cn/Image/201810/normal/20010.png");
-		carousel[1].setAttribute("data-original", "https://res.wang64.cn/Image/201810/normal/20025.png");
-		carousel[2].setAttribute("data-original", "https://res.wang64.cn/Image/201810/normal/20005.gif");
+		carousel[1].setAttribute("data-original", "https://res.wang64.cn/Image/201810/normal/20005.gif");
+		carousel[2].setAttribute("data-original", "https://res.wang64.cn/Image/201810/normal/20025.png");
 	}
 
 	// 加载图片
