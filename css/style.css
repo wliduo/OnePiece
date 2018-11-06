@@ -138,6 +138,11 @@ img {
 :focus {
 	outline: 0;
 }
+.lazy {
+    background-image: url(../vendor/jquery_lazyload-1.9.7/img/loading.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 /* Typography
 -----------------------------------------------------------------------------*/
 a {
