@@ -3,12 +3,12 @@ $(window).on('load', function () {
 	// alert("正在开发中.....∩_∩");
 
 	// 加载视频
-	document.getElementById("videoShow").src = "https://wang926454.gitee.io/reader/Video/onepiece.mp4";
-	document.getElementById("video01").src = "https://wang926454.gitee.io/reader/Video/OnePiece01.mp4";
-	document.getElementById("video02").src = "https://wang926454.gitee.io/reader/Video/OnePiece02.mp4";
-	document.getElementById("video03").src = "https://wang926454.gitee.io/reader/Video/OnePiece03.mp4";
-	document.getElementById("video04").src = "https://wang926454.gitee.io/reader/Video/OnePiece04.mp4";
-	document.getElementById("video05").src = "https://wang926454.gitee.io/reader/Video/OnePiece05.mp4";
+	document.getElementById("videoShow").src = "https://wang926454.gitee.io/listener/Video/OnePiece/MV/01.mp4";
+	document.getElementById("video01").src = "https://wang926454.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece01.mp4";
+	document.getElementById("video02").src = "https://wang926454.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece02.mp4";
+	document.getElementById("video03").src = "https://wang926454.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece03.mp4";
+	document.getElementById("video04").src = "https://wang926454.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece04.mp4";
+	document.getElementById("video05").src = "https://wang926454.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece05.mp4";
 
 	'use strict';
 	

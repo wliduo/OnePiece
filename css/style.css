@@ -148,7 +148,7 @@ img {
 a {
 	outline: none;
 	font-size:13px;
-	text-decoration: underline;
+	text-decoration: none;
 	color: #03A9F4;
 }
 a:hover, a:focus {
