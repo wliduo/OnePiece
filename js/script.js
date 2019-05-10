@@ -3,12 +3,12 @@ $(window).on('load', function () {
 	// alert("正在开发中.....∩_∩");
 
 	// 加载视频
-	document.getElementById("videoShow").src = "https://wang926454.gitee.io/listener/Video/OnePiece/MV/01.mp4";
-	document.getElementById("video01").src = "https://wang926454.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece01.mp4";
-	document.getElementById("video02").src = "https://wang926454.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece02.mp4";
-	document.getElementById("video03").src = "https://wang926454.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece03.mp4";
-	document.getElementById("video04").src = "https://wang926454.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece04.mp4";
-	document.getElementById("video05").src = "https://wang926454.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece05.mp4";
+	document.getElementById("videoShow").src = "https://dolyw.gitee.io/listener/Video/OnePiece/MV/01.mp4";
+	document.getElementById("video01").src = "https://dolyw.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece01.mp4";
+	document.getElementById("video02").src = "https://dolyw.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece02.mp4";
+	document.getElementById("video03").src = "https://dolyw.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece03.mp4";
+	document.getElementById("video04").src = "https://dolyw.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece04.mp4";
+	document.getElementById("video05").src = "https://dolyw.gitee.io/listener/Video/OnePiece/wallpaper/OnePiece05.mp4";
 
 	'use strict';
 	
@@ -85,56 +85,56 @@ $(document).ready(function() {
 		// alert("检测到是手机预览，横屏或者电脑体验更佳哦∩_∩");
 		var carousel = document.getElementsByName("carousel");
 		
-		carousel[0].setAttribute("data-original", "https://wang926454.gitee.io/reader/Image/201811/origin/04020.png");
-		carousel[1].setAttribute("data-original", "https://wang926454.gitee.io/reader/Image/201811/origin/04015.png");
-		carousel[2].setAttribute("data-original", "https://wang926454.gitee.io/reader/Image/201811/origin/04010.png");
+		carousel[0].setAttribute("data-original", "https://dolyw.gitee.io/reader/Image/201811/origin/04020.png");
+		carousel[1].setAttribute("data-original", "https://dolyw.gitee.io/reader/Image/201811/origin/04015.png");
+		carousel[2].setAttribute("data-original", "https://dolyw.gitee.io/reader/Image/201811/origin/04010.png");
 	}else{
 		var carousel = document.getElementsByName("carousel");
-		carousel[0].setAttribute("data-original", "https://wang926454.gitee.io/reader/Image/201810/normal/20010.png");
-		carousel[1].setAttribute("data-original", "https://wang926454.gitee.io/reader/Image/201810/normal/20005.gif");
-		carousel[2].setAttribute("data-original", "https://wang926454.gitee.io/reader/Image/201810/normal/20025.png");
+		carousel[0].setAttribute("data-original", "https://dolyw.gitee.io/reader/Image/201810/normal/20010.png");
+		carousel[1].setAttribute("data-original", "https://dolyw.gitee.io/reader/Image/201810/normal/20005.gif");
+		carousel[2].setAttribute("data-original", "https://dolyw.gitee.io/reader/Image/201810/normal/20025.png");
 	}
 
 	// 加载图片
 	var broad = document.getElementsByName("broad");
-	broad[0].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad/zoro.png";
-	broad[1].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad/nami.png";
-	broad[2].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad/usopp.png";
-	broad[3].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad/sanji.png";
-	broad[4].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad/chopper.png";
-	broad[5].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad/robin.png";
-	broad[6].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad/franky.png";
-	broad[7].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad/brook.png";
-	broad[8].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad/luffy.png";
+	broad[0].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad/zoro.png";
+	broad[1].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad/nami.png";
+	broad[2].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad/usopp.png";
+	broad[3].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad/sanji.png";
+	broad[4].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad/chopper.png";
+	broad[5].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad/robin.png";
+	broad[6].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad/franky.png";
+	broad[7].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad/brook.png";
+	broad[8].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad/luffy.png";
 
 	var logo = document.getElementsByName("logo");
-	logo[0].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/logo/luffy.png";
-	logo[1].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/logo/zoro.png";
-	logo[2].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/logo/nami.png";
-	logo[3].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/logo/usopp.png";
-	logo[4].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/logo/sanji.png";
-	logo[5].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/logo/chopper.png";
-	logo[6].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/logo/robin.png";
-	logo[7].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/logo/franky.png";
-	logo[8].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/logo/brook.png";
-	logo[9].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/logo/merry.png";
-	logo[10].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/logo/sunny.png";
-	logo[11].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/logo/jinbe.png";
+	logo[0].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/logo/luffy.png";
+	logo[1].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/logo/zoro.png";
+	logo[2].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/logo/nami.png";
+	logo[3].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/logo/usopp.png";
+	logo[4].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/logo/sanji.png";
+	logo[5].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/logo/chopper.png";
+	logo[6].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/logo/robin.png";
+	logo[7].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/logo/franky.png";
+	logo[8].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/logo/brook.png";
+	logo[9].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/logo/merry.png";
+	logo[10].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/logo/sunny.png";
+	logo[11].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/logo/jinbe.png";
 
 	var photos = document.getElementsByName("photos");
-	photos[0].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/20020.png";
-	photos[1].src = "https://wang926454.gitee.io/reader/Image/201810/thumbnail/20030.png";
+	photos[0].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/20020.png";
+	photos[1].src = "https://dolyw.gitee.io/reader/Image/201810/thumbnail/20030.png";
 
 	var broad2 = document.getElementsByName("broad2");
-	broad2[0].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad2/luffy.png";
-	broad2[1].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad2/zoro.png";
-	broad2[2].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad2/nami.png";
-	broad2[3].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad2/usopp.png";
-	broad2[4].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad2/sanji.png";
-	broad2[5].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad2/chopper.png";
-	broad2[6].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad2/robin.png";
-	broad2[7].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad2/franky.png";
-	broad2[8].src = "https://wang926454.gitee.io/reader/Image/201810/normal/broad2/brook.png";
+	broad2[0].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad2/luffy.png";
+	broad2[1].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad2/zoro.png";
+	broad2[2].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad2/nami.png";
+	broad2[3].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad2/usopp.png";
+	broad2[4].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad2/sanji.png";
+	broad2[5].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad2/chopper.png";
+	broad2[6].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad2/robin.png";
+	broad2[7].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad2/franky.png";
+	broad2[8].src = "https://dolyw.gitee.io/reader/Image/201810/normal/broad2/brook.png";
 
 	/* Animations Home Page*/
 	function onScrollInit( items, trigger ) {
